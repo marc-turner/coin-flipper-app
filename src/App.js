@@ -1,10 +1,14 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
+import CoinContainer from './CoinContainer';
 import './App.css';
 
 class App extends Component {
     render() {
-        return <div className='App'></div>;
+        return (
+            <div className='App'>
+                <CoinContainer />
+            </div>
+        );
     }
 }
 
