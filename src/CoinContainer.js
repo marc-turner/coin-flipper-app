@@ -22,7 +22,7 @@ class CoinContainer extends Component {
             nHeads: 0,
             nTails: 0
         };
-        this.handleClick = this.handleClick.bind(this);
+        this.handleClick = handleClick.bind(this);
     }
     flipCoin() {
         const newCoin = choice.handleClick.bind(this);
